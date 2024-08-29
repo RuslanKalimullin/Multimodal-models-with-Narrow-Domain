@@ -19,7 +19,9 @@ For studying meme-related content, we used the following datasets, which include
 - **MemeCraft Dataset**:  
   [MemeCraft Dataset on GitHub](https://github.com/Social-AI-Studio/MemeCraft.git)
 
-## Methodologies for Medical Domain images (Generative modeling)
+## Methodologies for Medical Domain images 
+
+## Generative modeling
 
 ### Bridge Matching
 **Bridge Matching** involves training on paired fMRI data, specifically resting-state and motor-task functional connectivity matrices. The key idea is to use conditional diffusion models to align functional connectivity patterns by minimizing the distance between the model output and the target connectivity matrices.
@@ -48,6 +50,7 @@ During generation, start with an initial sample $X_0 \sim q_{0}$ and evolve it t
 
 This method leverages the strengths of Stable Diffusion to achieve high fidelity and accuracy in generating images that correspond to complex connectivity patterns, crucial for analyzing fMRI data in a medical context.
 
+##Multimodal models
 
 ## Project Overview
 
