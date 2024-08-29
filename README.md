@@ -50,8 +50,15 @@ During generation, start with an initial sample $X_0 \sim q_{0}$ and evolve it t
 
 This method leverages the strengths of Stable Diffusion to achieve high fidelity and accuracy in generating images that correspond to complex connectivity patterns, crucial for analyzing fMRI data in a medical context.
 
-##Multimodal models
+## Multimodal models
 
+**GILL Model**:
+- **Repository**: [GILL on GitHub](https://github.com/kohjingyu/gill/tree/main?tab=readme-ov-file)
+- **Overview**: The GILL model facilitates the integration and analysis of multimodal data, leveraging embeddings and functional connectivity matrices to deliver insightful results.
+
+By preparing this multimodal paired dataset and using the GILL model, we aim to enhance the accuracy and interpretability of fMRI analyses, enabling deeper insights into brain connectivity patterns.
+
+This structured and detailed description should provide a clear overview of your approach and methodologies, highlighting the use of GILL and other techniques in your project.
 ## Project Overview
 
 This project aims to refine and optimize multimodal models for application in specific domains, leveraging the data from the sources mentioned above. The fine-tuning process is critical for ensuring that these models can accurately interpret and generate content within narrow, specialized contexts, whether in medical research or social media meme analysis.
