@@ -35,9 +35,9 @@ In conditional diffusion models, we learn to generate samples conditioned on add
 4. Feed the pair $(x_t, t)$ into the neural network to compute $f_\theta(x_t, t)$.
 5. Compute the conditional vector field $\beta_t \cdot (x_1 - x_t) / \overline{\sigma}^2_t$.
 6. Perform a gradient descent step:
-   \[
+   $
    \nabla_\theta \left\| f_\theta(x_t, t) - \beta_t \frac{x_1 - x_t}{\overline{\sigma}^2_t} \right\|^2.
-   \]
+   $
 
 During generation, start with an initial sample $X_0 \sim q_{0}$ and evolve it through an SDE using methods such as Euler's method or other solvers. This approach ensures that the generated samples approximate the target distribution.
 
