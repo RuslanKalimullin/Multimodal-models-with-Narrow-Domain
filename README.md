@@ -5,7 +5,7 @@ This project focuses on fine-tuning multimodal models to enhance their performan
 ## Datasets
 
 ### Medical Domain Data
-For the medical domain, we utilized data from the Human Connectome Project. This dataset provides comprehensive neural imaging data, essential for advancing research in brain connectivity and related studies.
+For the medical domain, we utilized data from the Human Connectome Project. This dataset provides comprehensive neural imaging data (fMRI), essential for advancing research in brain connectivity and related studies.
 
 - **Human Connectome Project (Young Adult Data)**:  
   [Human Connectome Project - Young Adult Data Releases](https://www.humanconnectome.org/study/hcp-young-adult/data-releases)
